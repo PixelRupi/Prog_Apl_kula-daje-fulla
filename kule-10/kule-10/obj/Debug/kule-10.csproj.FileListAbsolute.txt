@@ -1,0 +1,10 @@
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule-10.csproj.AssemblyReference.cache
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule_10.Properties.Resources.resources
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule-10.csproj.GenerateResource.cache
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule-10.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule_10.Form1.resources
+C:\Users\Piotr\Desktop\kule-10\kule-10\bin\Debug\kule-10.exe.config
+C:\Users\Piotr\Desktop\kule-10\kule-10\bin\Debug\kule-10.exe
+C:\Users\Piotr\Desktop\kule-10\kule-10\bin\Debug\kule-10.pdb
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule-10.exe
+C:\Users\Piotr\Desktop\kule-10\kule-10\obj\Debug\kule-10.pdb
