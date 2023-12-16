@@ -30,14 +30,14 @@ namespace kule_10
         {
             Random randy = new Random();
 
+            SoundPlayer boom = new SoundPlayer();
+                        
+
             //pozycja 
             public float x;
             public float y;
             //promien
             public float r;
-            //ograniczenie pola
-            public float x_min, x_max;
-            public float y_min, y_max;
             // wektory
             public int vec_x = 1;
             public int vec_y = 1;
@@ -66,7 +66,6 @@ namespace kule_10
 
             public void przesunObiekt(List<Kula> kulases)
             {
-                float odleglosc;
                 x += (float)vec_x;
                 y += (float)vec_y;
                 Console.WriteLine("kula: x: " + x + " y: " + y);
@@ -74,17 +73,25 @@ namespace kule_10
                 if (x <= r)
                 {
                     vec_x *= -1;
+                    boom.SoundLocation = "boom.wav";
+                    boom.Play();
                 } else if (x >= (scena.Width - r))
                 {
                     vec_x *= -1;
+                    boom.SoundLocation = "boom.wav";
+                    boom.Play();
                 }
 
                 if (y <= r)
                 {
                     vec_y *= -1;
+                    boom.SoundLocation = "boom.wav";
+                    boom.Play();
                 } else if (y >= (scena.Height - r))
                 {
                     vec_y *= -1;
+                    boom.SoundLocation = "boom.wav";
+                    boom.Play();
                 }
 
 
@@ -96,6 +103,8 @@ namespace kule_10
                         {
                             vec_x *= -1;
                             vec_y *= -1;
+                            boom.SoundLocation = "boom.wav";
+                            boom.Play();
                         }
                     }
                 }
@@ -225,7 +234,7 @@ namespace kule_10
         {
             SoundPlayer music = new SoundPlayer();
             music.SoundLocation = "music.wav";
-            music.PlayLooping();
+            music.Play();
         }
     }
 }
